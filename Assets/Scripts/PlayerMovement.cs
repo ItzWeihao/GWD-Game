@@ -6,9 +6,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public Camera playerCamera;
-    public float walkSpeed = 6f;
-    public float runSpeed = 12f;
-    public float jumpPower = 7f;
+    public float walkSpeed;
+    public float runSpeed;
+    public float jumpPower;
     public float gravity = 10f;
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
@@ -54,19 +54,19 @@ public class PlayerMovement : MonoBehaviour
             moveDirection.y -= gravity * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.R) && canMove)
-        {
-            characterController.height = crouchHeight;
-            walkSpeed = crouchSpeed;
-            runSpeed = crouchSpeed;
+        //if (Input.GetKey(KeyCode.R) && canMove)
+        //{
+        //    characterController.height = crouchHeight;
+        //    walkSpeed = crouchSpeed;
+        //    runSpeed = crouchSpeed;
 
-        }
-        else
-        {
-            characterController.height = defaultHeight;
-            walkSpeed = 6f;
-            runSpeed = 12f;
-        }
+        //}
+        //else
+        //{
+        //    characterController.height = defaultHeight;
+        //    walkSpeed = walkSpeed;
+        //    runSpeed = runSpeed;
+        //} 
 
         characterController.Move(moveDirection * Time.deltaTime);
 
