@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 6363040495995618671}
   m_Layer: 0
   m_Name: === PlayerObject ===
-  m_TagString: Untagged
+  m_TagString: PlayerObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,15 +273,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7338194882778675095}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.645614, z: -0, w: 0.76366395}
-  m_LocalPosition: {x: 11.47, y: 0, z: -0.87}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 11, y: 0, z: -0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8351190430679012765}
   - {fileID: 7334282224291953387}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -80.423, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!143 &3788362438740008603
 CharacterController:
   m_ObjectHideFlags: 0
@@ -320,12 +320,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 4208931744253718498}
-  walkSpeed: 6
-  runSpeed: 12
+  walkSpeed: 4
+  runSpeed: 8
   jumpPower: 7
   gravity: 10
   lookSpeed: 2
   lookXLimit: 45
   defaultHeight: 2
-  crouchHeight: 1
-  crouchSpeed: 3
