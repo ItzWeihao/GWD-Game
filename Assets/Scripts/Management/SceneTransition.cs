@@ -3,19 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    protected int sceneIndex = 0;
-    public void SwitchScene(int newSceneIndex)
+    protected int sceneIndex;
+
+    private void Awake()
     {
-        SceneManager.LoadScene(newSceneIndex);
+        sceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
+
+    public void SwitchScene()
+    {
+        sceneIndex++;
+        SceneManager.LoadScene(sceneIndex);
     }
 
     public int GetSceneIndex()
     {
         return sceneIndex;
-    }
-
-    public void SetSceneIndex(int currentSceneIndex)
-    {
-        sceneIndex = currentSceneIndex;
     }
 }
