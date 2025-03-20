@@ -5,6 +5,7 @@ using UnityEngine;
 public class FadeUI : MonoBehaviour
 {
     public CanvasGroup canvasGroup; // Drag your Canvas Group here in the inspector
+    public SceneTransition _sceneTransition;
     public float fadeDuration = 1f;
     public bool fade = false;
 
@@ -25,21 +26,26 @@ public class FadeUI : MonoBehaviour
         fade = false;
     }
 
-    private void Update()
+    public void Fade()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            // Start the FadeIn and FadeOut sequence when 'E' is pressed
-            StartCoroutine(FadeInOutSequence());
-        }
+        StartCoroutine(FadeInOutSequence());
     }
 
-    private IEnumerator FadeInOutSequence()
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.E))
+    //    {
+    //        // Start the FadeIn and FadeOut sequence when 'E' is pressed
+    //        StartCoroutine(FadeInOutSequence());
+    //    }
+    //}
+
+    public IEnumerator FadeInOutSequence()
     {
         // Play FadeIn
         FadeIn();
         yield return new WaitForSeconds(fadeDuration); // Wait for the fade-in to complete
-
+        _sceneTransition.SwitchScene();
         // After 1 second (or fadeDuration), play FadeOut
         yield return new WaitForSeconds(1f); // You can change this value for a longer or shorter wait before fade-out
         FadeOut();
