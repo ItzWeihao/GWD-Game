@@ -4,14 +4,13 @@ using UnityEngine.SceneManagement;
 public class SceneTrigger : MonoBehaviour
 {
     public SceneTransition _sceneTransition;
-    public PlayerMovement _playerMovement;
     
     void OnTriggerEnter(UnityEngine.Collider other)
     {
         GameObject collidedObject = other.gameObject;
         if (collidedObject.tag == "PlayerObject")
         {
-            _playerMovement.SetMovementDirectionToZero();
+            collidedObject.GetComponent<PlayerMovement>().SetMovementDirectionToZero(); 
 
             // Get the current Scene by Index
             var currentSceneIndex = _sceneTransition.GetSceneIndex();
