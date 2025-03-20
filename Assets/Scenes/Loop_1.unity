@@ -119,11 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &1039799656 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1890756776411020409, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-  m_PrefabInstance: {fileID: 1413379822}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1413379822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,65 +127,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 625337621490469339, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
+    - target: {fileID: 1094318491235830810, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      propertyPath: _fadeUI
+      value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 625337621490469339, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 625337621490469339, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 625337621490469339, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 625337621490469339, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
+    - target: {fileID: 1094318491235830810, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      propertyPath: _sceneTransition
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3565889979319027644, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       propertyPath: m_Name
       value: === Level ===
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686565689165706029, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_Size.x
-      value: 2.7695746
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686565689165706029, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_Size.z
-      value: 0.53200537
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686565689165706029, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_Center.x
-      value: 1.3070107
-      objectReference: {fileID: 0}
-    - target: {fileID: 3686565689165706029, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_Center.z
-      value: 0.078099385
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176999301417845781, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176999301417845781, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176999301417845781, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176999301417845781, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4176999301417845781, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 270
       objectReference: {fileID: 0}
     - target: {fileID: 6212605638147952713, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       propertyPath: m_LocalPosition.x
@@ -232,10 +179,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8496227935144055180, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: _target
+    - target: {fileID: 6864418092393378081, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      propertyPath: _fadeUI
       value: 
-      objectReference: {fileID: 1039799656}
+      objectReference: {fileID: 0}
+    - target: {fileID: 6864418092393378081, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      propertyPath: _sceneTransition
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
