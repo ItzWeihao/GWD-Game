@@ -127,14 +127,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1094318491235830810, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: _fadeUI
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1094318491235830810, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: _sceneTransition
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3565889979319027644, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       propertyPath: m_Name
       value: === Level ===
@@ -178,14 +170,6 @@ PrefabInstance:
     - target: {fileID: 6212605638147952713, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6864418092393378081, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: _fadeUI
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6864418092393378081, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
-      propertyPath: _sceneTransition
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
