@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = 10f;
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
-    public float defaultHeight = 2f;
+    // public float defaultHeight = 2f;
     // public float crouchHeight = 1f;
     // public float crouchSpeed = 3f;
 
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
         float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
-        float movementDirectionY = moveDirection.y;
+        moveDirection.y = 0f;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
         //if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
