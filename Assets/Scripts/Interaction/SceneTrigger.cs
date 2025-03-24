@@ -12,7 +12,6 @@ public class SceneTrigger : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-
         // We set the current Scene Index and switch to that scene
         _fadeUI.Fade();
     }
