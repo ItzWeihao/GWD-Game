@@ -5,7 +5,7 @@ public class SceneTrigger : MonoBehaviour, IInteractable
 {
     private FadeUI _fadeUI;
 
-    private void Start()
+    private void Awake()
     {
         _fadeUI = GameObject.Find("FadeIn/Out").GetComponent<FadeUI>();
     }
