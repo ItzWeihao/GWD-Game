@@ -4,23 +4,24 @@ using UnityEngine;
 public class TriggerMonsterScare1 : MonoBehaviour
 {
     public MonsterScare1 run;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Light _light1;
+    public Light _light2;
 
-    // Update is called once per frame
-    void Update()
+    public Camera _camera;
+
+    private PlayerMovement playerMovement;
+
+    void OnTriggerEnter(Collider other)
     {
-        
-    }
-    void OnTriggerEnter(UnityEngine.Collider other)
-    {
-        
         GameObject collidedObject = other.gameObject;
-        if (collidedObject.tag == "Player")
+        if (collidedObject.tag == "PlayerObject")
         {
+            Debug.Log("Play scary sound");
+            _light1.intensity = 0;
+            _light2.intensity = 0;
+
+            collidedObject.GetComponent<PlayerMovement>().enabled = false;
+
             run.movingToTarget = true;
             Destroy(gameObject);
         }

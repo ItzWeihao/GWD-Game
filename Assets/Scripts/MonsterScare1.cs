@@ -6,11 +6,13 @@ public class MonsterScare1 : MonoBehaviour
     public Transform current;
     public Transform target;
     public bool movingToTarget = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
 
-    }
+    public Light _light1;
+    public Light _light2;
+    public PlayerMovement _playerMovement;
+    public GameObject door1;
+    public GameObject door2;
+    public GameObject picture;
 
     // Update is called once per frame
     public void Update()
@@ -27,6 +29,16 @@ public class MonsterScare1 : MonoBehaviour
         
         if (current.position == target.position)
         {
+            _light1.intensity = 0.5f;
+            _light2.intensity = 1f;
+
+            _playerMovement.enabled = true;
+            picture.SetActive(true);
+            // Play Door breaking sound
+            Debug.Log("Door break sound");
+            Destroy(door1);
+            Destroy(door2);
+
             Destroy(gameObject);
         }
         
