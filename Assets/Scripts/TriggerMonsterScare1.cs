@@ -11,7 +11,7 @@ public class TriggerMonsterScare1 : MonoBehaviour
 
     private PlayerMovement playerMovement;
 
-    void OnTriggerEnter(UnityEngine.Collider other)
+    void OnTriggerEnter(Collider other)
     {
         GameObject collidedObject = other.gameObject;
         if (collidedObject.tag == "PlayerObject")
