@@ -78,14 +78,4 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
     }
-
-    public Vector3 GetMovementDirection()
-    {
-        return moveDirection;
-    }
-
-    public void SetMovementDirectionToZero()
-    {
-        moveDirection = Vector3.zero;
-    }
 }
