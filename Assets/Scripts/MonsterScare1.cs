@@ -13,8 +13,14 @@ public class MonsterScare1 : MonoBehaviour
     public GameObject door1;
     public GameObject door2;
     public GameObject picture;
+    public Animator animator;
 
     // Update is called once per frame
+    public void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+    
     public void Update()
     {
         if (movingToTarget == true)
@@ -25,6 +31,7 @@ public class MonsterScare1 : MonoBehaviour
     }
     public void Run()
     {
+        animator.SetBool("RUN", true);
         transform.position = Vector3.MoveTowards(current.position, target.position, speed * Time.deltaTime);
         
         if (current.position == target.position)
@@ -32,6 +39,7 @@ public class MonsterScare1 : MonoBehaviour
             _light1.intensity = 0.5f;
             _light2.intensity = 1f;
 
+            animator.SetBool("RUN", false);
             _playerMovement.enabled = true;
             picture.SetActive(true);
             // Play Door breaking sound
