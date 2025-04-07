@@ -29,6 +29,12 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = false;
     }
 
+    public void CursorSetting(CursorLockMode lockMode, bool visible)
+    {
+        Cursor.lockState = lockMode;
+        Cursor.visible = visible;
+    }
+
     void Update()
     {
         if (Time.timeScale == 0f) return; //Player movement stops when Pause Menu is active
