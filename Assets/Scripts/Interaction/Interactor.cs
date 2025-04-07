@@ -1,4 +1,5 @@
 using UnityEngine;
+using DialogueEditor;
 
 
 interface IInteractable
@@ -10,10 +11,11 @@ public class Interactor : MonoBehaviour
 {
     public Transform InteractorSource;
     public float InteractRange;
+    public PlayerMovement PlayerMovement;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
             if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
@@ -26,7 +28,24 @@ public class Interactor : MonoBehaviour
                 {
                     interactObj.Interact();
                 }
+
+                else if (hitInfo.collider.gameObject.TryGetComponent(out NPCConversation conversationObj))
+                {
+                    PlayerMovement.CursorSetting(0, true);
+                    PlayerMovement.enabled = false;
+
+                    if (!ConversationManager.Instance.IsConversationActive)
+                    {
+                        ConversationManager.Instance.StartConversation(conversationObj);
+                    }
+                }
             }
-        }        
+        }
+
+        if (!ConversationManager.Instance.IsConversationActive && !PlayerMovement.enabled)
+        {
+            PlayerMovement.enabled = true;
+            PlayerMovement.CursorSetting(CursorLockMode.Locked, false);
+        }
     }
 }
