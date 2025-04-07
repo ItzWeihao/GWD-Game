@@ -9,6 +9,14 @@ public class PauseController : MonoBehaviour
     void Start()
     {
         pauseMenuUI.SetActive(false); // Hide menu at game start
+
+        // Ensure the game is unpaused and the cursor is hidden/locked at the beginning
+        Time.timeScale = 1f;
+        isPaused = false;
+
+        pauseMenuUI.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
@@ -27,6 +35,9 @@ public class PauseController : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; // Resume time
         isPaused = false;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void PauseGame()
@@ -34,6 +45,9 @@ public class PauseController : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f; // Freeze time
         isPaused = true;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void GoToMainMenu()
@@ -46,8 +60,8 @@ public class PauseController : MonoBehaviour
 
     public void QuitGame()
     {
-        Time.timeScale = 1f; // Optional
-        Application.Quit();
         Debug.Log("Quit game!");
+        //Time.timeScale = 1f; // Optional
+        Application.Quit();
     }
 }
