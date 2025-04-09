@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public Camera playerCamera;
     public float walkSpeed;
     public float runSpeed;
-    public float jumpPower;
-    public float gravity = 10f;
+    // public float jumpPower;
+    // public float gravity = 10f;
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
     // public float defaultHeight = 2f;
@@ -20,7 +20,9 @@ public class PlayerMovement : MonoBehaviour
     private float rotationX = 0;
     private CharacterController characterController;
 
-    private bool canMove = true;
+    public bool canMove = true;
+
+    public bool inDialogue = false;
 
     void Start()
     {
@@ -33,6 +35,20 @@ public class PlayerMovement : MonoBehaviour
     {
         Cursor.lockState = lockMode;
         Cursor.visible = visible;
+    }
+
+    public void StopPlayerMovement()
+    {
+        Debug.Log("Player should stop moving");
+        walkSpeed = 0; runSpeed = 0;
+        canMove = false;
+    }
+
+    public void ResumePlayerMovement()
+    {
+        Debug.Log("Player should resume moving");
+        walkSpeed = 4; runSpeed = 6;
+        canMove = true;
     }
 
     void Update()

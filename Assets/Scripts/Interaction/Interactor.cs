@@ -31,19 +31,22 @@ public class Interactor : MonoBehaviour
                 else if (hitInfo.collider.gameObject.TryGetComponent(out NPCConversation conversationObj))
                 {
                     PlayerMovement.CursorSetting(0, true);
-                    PlayerMovement.enabled = false;
+                    PlayerMovement.StopPlayerMovement();
 
                     if (!ConversationManager.Instance.IsConversationActive)
                     {
+                        PlayerMovement.inDialogue = true;
                         ConversationManager.Instance.StartConversation(conversationObj);
+                        
                     }
                 }
             }
         }
 
-        if (!ConversationManager.Instance.IsConversationActive && !PlayerMovement.enabled)
+        if (!ConversationManager.Instance.IsConversationActive && PlayerMovement.inDialogue)
         {
-            PlayerMovement.enabled = true;
+            PlayerMovement.inDialogue = false;
+            PlayerMovement.ResumePlayerMovement();
             PlayerMovement.CursorSetting(CursorLockMode.Locked, false);
         }
     }

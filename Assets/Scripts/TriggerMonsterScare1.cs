@@ -9,18 +9,18 @@ public class TriggerMonsterScare1 : MonoBehaviour
 
     public Camera _camera;
 
-    private PlayerMovement playerMovement;
+    public PlayerMovement playerMovement;
 
     void OnTriggerEnter(Collider other)
     {
         GameObject collidedObject = other.gameObject;
         if (collidedObject.tag == "PlayerObject")
         {
-            Debug.Log("Play scary sound");
+            SoundManagerScript.PlaySound(SoundType.JUMPSCARE);
             _light1.intensity = 0;
             _light2.intensity = 0;
 
-            collidedObject.GetComponent<PlayerMovement>().enabled = false;
+            playerMovement.StopPlayerMovement();
 
             run.movingToTarget = true;
             Destroy(gameObject);
