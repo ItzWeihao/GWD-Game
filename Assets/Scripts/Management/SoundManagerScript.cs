@@ -8,7 +8,8 @@ using UnityEngine.Audio;
 public enum SoundType
 {
     JUMPSCARE,
-    DOORIMPACT
+    DOORIMPACT,
+    DOORSLAM
 }
 
 [RequireComponent(typeof(AudioSource))]

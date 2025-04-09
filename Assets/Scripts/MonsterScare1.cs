@@ -40,7 +40,7 @@ public class MonsterScare1 : MonoBehaviour
             _light2.intensity = 1f;
 
             animator.SetBool("RUN", false);
-            _playerMovement.ResumePlayerMovement();
+            
             picture.SetActive(true);
 
             SoundManagerScript.PlaySound(SoundType.DOORIMPACT);
@@ -48,6 +48,8 @@ public class MonsterScare1 : MonoBehaviour
             Destroy(door2);
 
             Destroy(gameObject);
+
+            _playerMovement.ResumePlayerMovement();
         }
         
     }

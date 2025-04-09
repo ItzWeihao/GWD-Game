@@ -35,14 +35,17 @@ public class Interactor : MonoBehaviour
 
                     if (!ConversationManager.Instance.IsConversationActive)
                     {
+                        PlayerMovement.inDialogue = true;
                         ConversationManager.Instance.StartConversation(conversationObj);
+                        
                     }
                 }
             }
         }
 
-        if (!ConversationManager.Instance.IsConversationActive && !PlayerMovement.enabled)
+        if (!ConversationManager.Instance.IsConversationActive && PlayerMovement.inDialogue)
         {
+            PlayerMovement.inDialogue = false;
             PlayerMovement.ResumePlayerMovement();
             PlayerMovement.CursorSetting(CursorLockMode.Locked, false);
         }
