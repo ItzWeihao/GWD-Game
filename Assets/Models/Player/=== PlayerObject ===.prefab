@@ -495,7 +495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 4208931744253718498}
   walkSpeed: 4
-  runSpeed: 8
+  runSpeed: 6
   jumpPower: 7
   gravity: 10
   lookSpeed: 2

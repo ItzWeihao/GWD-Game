@@ -8,8 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public Camera playerCamera;
     public float walkSpeed;
     public float runSpeed;
-    public float jumpPower;
-    public float gravity = 10f;
+    // public float jumpPower;
+    // public float gravity = 10f;
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
     // public float defaultHeight = 2f;
@@ -33,6 +33,16 @@ public class PlayerMovement : MonoBehaviour
     {
         Cursor.lockState = lockMode;
         Cursor.visible = visible;
+    }
+
+    public void StopPlayerMovement()
+    {
+        walkSpeed = 0; runSpeed = 0;
+    }
+
+    public void ResumePlayerMovement()
+    {
+        walkSpeed = 4; runSpeed = 6;
     }
 
     void Update()

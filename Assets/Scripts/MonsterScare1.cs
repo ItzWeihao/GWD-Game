@@ -40,10 +40,10 @@ public class MonsterScare1 : MonoBehaviour
             _light2.intensity = 1f;
 
             animator.SetBool("RUN", false);
-            _playerMovement.enabled = true;
+            _playerMovement.ResumePlayerMovement();
             picture.SetActive(true);
-            // Play Door breaking sound
-            Debug.Log("Door break sound");
+
+            SoundManagerScript.PlaySound(SoundType.DOORIMPACT);
             Destroy(door1);
             Destroy(door2);
 
