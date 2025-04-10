@@ -1,3 +1,4 @@
+using DialogueEditor;
 using UnityEngine;
 
 public class ReverieCore : MonoBehaviour, IInteractable
@@ -6,7 +7,16 @@ public class ReverieCore : MonoBehaviour, IInteractable
     [SerializeField] private GameObject door2;
     [SerializeField] private GameObject logs;
 
+    public GameObject Manual;
+
+    private NPCConversation _npcConversation;
+
     private bool firstInteraction = true;
+
+    void Awake()
+    {
+        _npcConversation = GetComponent<NPCConversation>();
+    }
 
     public void Interact()
     {
@@ -23,6 +33,9 @@ public class ReverieCore : MonoBehaviour, IInteractable
             // 3. Sound Implementation
             SoundManagerScript.PlaySound(SoundType.DOORSLAM);
         }
+
+        Manual.SetActive(true);
+
         // Makes sure that the door only rotates once and the logs are only set active once
         firstInteraction = false;
     }

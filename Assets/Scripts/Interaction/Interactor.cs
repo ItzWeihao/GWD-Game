@@ -37,7 +37,6 @@ public class Interactor : MonoBehaviour
                     {
                         PlayerMovement.inDialogue = true;
                         ConversationManager.Instance.StartConversation(conversationObj);
-                        
                     }
                 }
             }
