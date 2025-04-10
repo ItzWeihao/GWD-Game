@@ -920,6 +920,7 @@ GameObject:
   - component: {fileID: 2511210367978457087}
   - component: {fileID: 4126766304528672471}
   - component: {fileID: 731882711495743607}
+  - component: {fileID: 7284687295767963599}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -1016,6 +1017,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &7284687295767963599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128393099417320807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &151048536568088987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,6 +1679,7 @@ GameObject:
   - component: {fileID: 1163109569367360497}
   - component: {fileID: 3549098794380564518}
   - component: {fileID: 2218163520891705243}
+  - component: {fileID: 6259698924763892491}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -1748,6 +1776,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &6259698924763892491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286731066538950415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &295188748704734889
 GameObject:
   m_ObjectHideFlags: 0
@@ -2830,7 +2884,7 @@ GameObject:
   - component: {fileID: 625337621489699323}
   - component: {fileID: 625337621488700219}
   - component: {fileID: 3686565689165706029}
-  - component: {fileID: 6864418092393378081}
+  - component: {fileID: 2988375174949540324}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -2927,7 +2981,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
---- !u!114 &6864418092393378081
+--- !u!114 &2988375174949540324
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2936,9 +2990,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 625337621490898427}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1946c6d099a1f48a4ee39bc1ffaf26, type: 3}
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &632406772911575882
 GameObject:
   m_ObjectHideFlags: 0
@@ -5827,7 +5895,7 @@ GameObject:
   - component: {fileID: 6868665978959115841}
   - component: {fileID: 6640329439597392687}
   - component: {fileID: 3630450230971712115}
-  - component: {fileID: 7101295094879589686}
+  - component: {fileID: 6572012031655227881}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -5847,7 +5915,8 @@ Transform:
   m_LocalPosition: {x: -189.87222, y: 101.35869, z: -43.17662}
   m_LocalScale: {x: 0.6513842, y: 0.5364463, z: 1.01935}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 447448755814934803}
   m_Father: {fileID: 2272745414501857368}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!33 &6868665978959115841
@@ -5924,7 +5993,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
---- !u!114 &7101295094879589686
+--- !u!114 &6572012031655227881
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5933,9 +6002,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1096719103811209451}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1946c6d099a1f48a4ee39bc1ffaf26, type: 3}
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1122452665023188049
 GameObject:
   m_ObjectHideFlags: 0
@@ -7277,7 +7360,7 @@ GameObject:
   - component: {fileID: 258350956911107308}
   - component: {fileID: 4485015437854246837}
   - component: {fileID: 2057038957624953737}
-  - component: {fileID: 6323662196503794593}
+  - component: {fileID: 559793721668188726}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -7374,7 +7457,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
---- !u!114 &6323662196503794593
+--- !u!114 &559793721668188726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7383,9 +7466,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535718132884804888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1946c6d099a1f48a4ee39bc1ffaf26, type: 3}
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1565842995078075184
 GameObject:
   m_ObjectHideFlags: 0
@@ -8257,6 +8354,7 @@ GameObject:
   - component: {fileID: 8156081781696640096}
   - component: {fileID: 5727879421156830401}
   - component: {fileID: 1646963176576955847}
+  - component: {fileID: 6076093877788754995}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -8353,6 +8451,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &6076093877788754995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903300399910500163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1968431680930977508
 GameObject:
   m_ObjectHideFlags: 0
@@ -9682,6 +9806,7 @@ GameObject:
   - component: {fileID: 8806637415062393832}
   - component: {fileID: 4507924069915659657}
   - component: {fileID: 8937362530586658213}
+  - component: {fileID: 4888498249933074069}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -9778,6 +9903,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &4888498249933074069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2558099323151293691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2559322457176917917
 GameObject:
   m_ObjectHideFlags: 0
@@ -10649,6 +10800,7 @@ GameObject:
   - component: {fileID: 8491009093312453679}
   - component: {fileID: 6276389200894436040}
   - component: {fileID: 3604106423024375993}
+  - component: {fileID: 2056241983273616058}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -10745,6 +10897,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &2056241983273616058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815840518101559700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2817457779085527979
 GameObject:
   m_ObjectHideFlags: 0
@@ -11018,6 +11196,7 @@ GameObject:
   - component: {fileID: 7877724275544174555}
   - component: {fileID: 4786934398085164902}
   - component: {fileID: 9201270348360496251}
+  - component: {fileID: 4135297600885471723}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -11114,6 +11293,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &4135297600885471723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842147194113155614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2872176452505721028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13431,6 +13636,7 @@ GameObject:
   - component: {fileID: 7968476984256946842}
   - component: {fileID: 2122919041913333516}
   - component: {fileID: 4017896340358745407}
+  - component: {fileID: 4751356547534315183}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -13527,6 +13733,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &4751356547534315183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3294203869560633055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3303957681468119429
 GameObject:
   m_ObjectHideFlags: 0
@@ -16262,6 +16494,7 @@ GameObject:
   - component: {fileID: 3141912842138512249}
   - component: {fileID: 2697408028429108341}
   - component: {fileID: 947481059266080638}
+  - component: {fileID: 1935556768150664391}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -16358,6 +16591,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &1935556768150664391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4019280001210335008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4024900095140727768
 GameObject:
   m_ObjectHideFlags: 0
@@ -29470,6 +29729,57 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7468460636048576781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 447448755814934803}
+  - component: {fileID: 2020339487071550266}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &447448755814934803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7468460636048576781}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -12.351977, y: -2.4377823, z: 3.781145}
+  m_LocalScale: {x: 1.5351921, y: 1.8641195, z: 0.981017}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1514536596371015874}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020339487071550266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7468460636048576781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &7470539322700047759
 GameObject:
   m_ObjectHideFlags: 0
@@ -30178,6 +30488,7 @@ GameObject:
   - component: {fileID: 1363531052693693489}
   - component: {fileID: 7161302621722044029}
   - component: {fileID: 2570972917353476695}
+  - component: {fileID: 6443837154225525542}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -30274,6 +30585,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &6443837154225525542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670046455975947757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7707981100941959007
 GameObject:
   m_ObjectHideFlags: 0
@@ -31601,6 +31938,7 @@ GameObject:
   - component: {fileID: 1259656028977063321}
   - component: {fileID: 325098938089235622}
   - component: {fileID: 5263122733048565032}
+  - component: {fileID: 1693234027937283295}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -31697,6 +32035,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
+--- !u!114 &1693234027937283295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8094960774637819452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8095769801344427294
 GameObject:
   m_ObjectHideFlags: 0
@@ -32796,7 +33160,7 @@ GameObject:
   - component: {fileID: 3703644205164894631}
   - component: {fileID: 7937043766750514431}
   - component: {fileID: 8609667491155973406}
-  - component: {fileID: 4807295489499864602}
+  - component: {fileID: 657055103334579225}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -32893,7 +33257,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
---- !u!114 &4807295489499864602
+--- !u!114 &657055103334579225
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32902,9 +33266,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 8512473009995553624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1946c6d099a1f48a4ee39bc1ffaf26, type: 3}
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8528071221890579248
 GameObject:
   m_ObjectHideFlags: 0
@@ -33839,7 +34217,7 @@ GameObject:
   - component: {fileID: 4455809565169120657}
   - component: {fileID: 1164832478723739998}
   - component: {fileID: 5280850398403469360}
-  - component: {fileID: 1026518029888859213}
+  - component: {fileID: 4120646040964371831}
   m_Layer: 0
   m_Name: Door
   m_TagString: LockedDoor
@@ -33936,7 +34314,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.7695746, y: 4.755562, z: 0.53200537}
   m_Center: {x: 1.3070107, y: -0.000012755394, z: 0.078099385}
---- !u!114 &1026518029888859213
+--- !u!114 &4120646040964371831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33945,9 +34323,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 8845794540273555867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f1946c6d099a1f48a4ee39bc1ffaf26, type: 3}
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    won''t budge...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 2020339487071550266}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8858952718313731747
 GameObject:
   m_ObjectHideFlags: 0
