@@ -42,6 +42,7 @@ public class FadeUI : MonoBehaviour
 
     public IEnumerator FadeInOutSequence()
     {
+        SoundManagerScript.PlaySound(SoundType.LOOPTRANSITION);
         // Play FadeIn
         FadeIn();
         yield return new WaitForSeconds(fadeDuration); // Wait for the fade-in to complete

@@ -9,7 +9,8 @@ public enum SoundType
 {
     JUMPSCARE,
     DOORIMPACT,
-    DOORSLAM
+    DOOROPEN,
+    LOOPTRANSITION
 }
 
 [RequireComponent(typeof(AudioSource))]

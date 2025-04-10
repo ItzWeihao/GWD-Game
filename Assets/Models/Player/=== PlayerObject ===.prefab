@@ -586,7 +586,7 @@ MonoBehaviour:
   walkSpeed: 4
   runSpeed: 6
   lookSpeed: 2
-  lookXLimit: 50
+  lookXLimit: 45
   canMove: 1
   inDialogue: 0
 --- !u!114 &5044809230330893213
