@@ -119,43 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &45024846 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4200934620247125681, guid: 38c01ef3383bc214381c8412be3dca0a, type: 3}
-  m_PrefabInstance: {fileID: 253275347}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &45024847 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2068770142110957742, guid: 38c01ef3383bc214381c8412be3dca0a, type: 3}
-  m_PrefabInstance: {fileID: 253275347}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &45024851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45024846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentIDCounter: 2
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":191.600037,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"This
-    is Sage''s Locker. It would seem there is a set of clothes inside, but it is
-    locked.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
-  saveVersion: 110
-  DefaultName: 
-  DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 0}
-  NodeSerializedDataList:
-  - {fileID: 1855356624}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &253275347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,14 +173,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2068770142110957742, guid: 38c01ef3383bc214381c8412be3dca0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1855356623}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4200934620247125681, guid: 38c01ef3383bc214381c8412be3dca0a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 45024851}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38c01ef3383bc214381c8412be3dca0a, type: 3}
 --- !u!1001 &1792514979
 PrefabInstance:
@@ -267,66 +224,63 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3206060473147277704, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+    - target: {fileID: 3206060473147277704, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7451078613179778831, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+    - target: {fileID: 3206060473147277704, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4485791240899597215, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5656575396392278296, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+    - target: {fileID: 5656575396392278296, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5656575396392278296, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7451078613179778831, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+    - target: {fileID: 5656575396392278296, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6091355817959134574, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6091355817959134574, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7338194882778675095, guid: 3421518f615e9074a947d10041c9e654, type: 3}
       propertyPath: m_Name
       value: === PlayerObject ===
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754222574967017079, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_Dithering
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754222574967017079, guid: 3421518f615e9074a947d10041c9e654, type: 3}
+      propertyPath: m_RenderShadows
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3421518f615e9074a947d10041c9e654, type: 3}
---- !u!1 &1855356622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1855356623}
-  - component: {fileID: 1855356624}
-  m_Layer: 0
-  m_Name: ConversationEventInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1855356623
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855356622}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.4964104, y: 0.50356644, z: 0.50339067, w: -0.49658373}
-  m_LocalPosition: {x: 0.3312044, y: -0.22596464, z: -0.011351127}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 45024847}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1855356624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855356622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
-  Icon: {fileID: 0}
-  Audio: {fileID: 0}
 --- !u!1001 &4298519233557222372
 PrefabInstance:
   m_ObjectHideFlags: 0
