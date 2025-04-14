@@ -21,12 +21,15 @@ public class PauseController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (SceneManager.GetActiveScene().buildIndex != 0)
         {
-            if (isPaused)
-                ResumeGame();
-            else
-                PauseGame();
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (isPaused)
+                    ResumeGame();
+                else
+                    PauseGame();
+            }
         }
     }
 
@@ -54,14 +57,15 @@ public class PauseController : MonoBehaviour
     {
         Debug.Log("menu clicked!");
 
+        pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; // Reset time before changing scene
-        SceneManager.LoadScene("Main_Menu"); // Replace with your menu scene name
+        SceneManager.LoadScene("Main_Menu");
     }
 
     public void QuitGame()
     {
         Debug.Log("Quit game!");
-        //Time.timeScale = 1f; // Optional
+        //Time.timeScale = 1f;
         Application.Quit();
     }
 }
