@@ -327,7 +327,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &6091355817959134574
 MonoBehaviour:
@@ -830,7 +830,7 @@ PrefabInstance:
     - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+      objectReference: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
     - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_fontStyle
       value: 0
@@ -854,7 +854,7 @@ PrefabInstance:
     - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5576627151792573747, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+      objectReference: {fileID: -7451078613179778831, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
     - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_enableAutoSizing
       value: 1
@@ -1018,7 +1018,7 @@ PrefabInstance:
     - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+      objectReference: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
     - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_fontSizeMax
       value: 20
@@ -1030,7 +1030,7 @@ PrefabInstance:
     - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5576627151792573747, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+      objectReference: {fileID: -7451078613179778831, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
     - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901

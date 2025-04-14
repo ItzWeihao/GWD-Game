@@ -37,7 +37,7 @@ public class Interactor : MonoBehaviour
                     interactObj.Interact();
                 }
 
-                else if (hitInfo.collider.gameObject.TryGetComponent(out NPCConversation conversationObj))
+                if (hitInfo.collider.gameObject.TryGetComponent(out NPCConversation conversationObj))
                 {
                     PlayerMovement.CursorSetting(0, true);
                     PlayerMovement.StopPlayerMovement();

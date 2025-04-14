@@ -22,8 +22,6 @@ public class ReverieCore : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        PlayerMovement.CursorSetting(0, true);
-        PlayerMovement.StopPlayerMovement();
         Manual.SetActive(true);
 
         if (firstInteraction)

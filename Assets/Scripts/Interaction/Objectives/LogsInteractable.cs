@@ -23,8 +23,6 @@ public class LogsInteractable : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        PlayerMovement.CursorSetting(0, true);
-        PlayerMovement.StopPlayerMovement();
         Log.SetActive(true);
 
         // Open the logs

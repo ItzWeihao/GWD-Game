@@ -321,7 +321,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 2
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!4 &270204204
@@ -355,7 +355,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &270204206
@@ -374,7 +374,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 8300000, guid: e9b1cf023d379724298394d5f710c6d4, type: 3}
 --- !u!114 &270204207
@@ -405,7 +405,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   NodeID: 3
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!1 &289042339
@@ -734,7 +734,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   NodeID: 3
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &378966929
@@ -753,7 +753,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 2
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &378966930
@@ -772,7 +772,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &378966931
@@ -791,7 +791,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 8300000, guid: e9b1cf023d379724298394d5f710c6d4, type: 3}
 --- !u!1 &419499448
@@ -846,7 +846,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 8300000, guid: e9b1cf023d379724298394d5f710c6d4, type: 3}
 --- !u!114 &419499451
@@ -865,7 +865,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &419499452
@@ -884,7 +884,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 2
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &419499453
@@ -1240,21 +1240,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 5
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":423,"yPos":337},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1,2],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":409,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    have found a Log.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":280,"yPos":179},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
-    did they do to these people?..","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":561,"yPos":181},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":426,"yPos":337},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1,2],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":412,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    have found a Log.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":283,"yPos":179},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    did they do to these people?..","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":564,"yPos":181},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"This
     is just a memory. Gotta stay focused.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  DefaultFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   NodeSerializedDataList:
   - {fileID: 378966931}
   - {fileID: 378966930}
   - {fileID: 378966929}
   - {fileID: 378966928}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -1614,36 +1614,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 4
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":414,"yPos":294},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1,2],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":411,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    have found a Log.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":289,"yPos":150},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"This
-    is brutal...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":548,"yPos":152},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah...
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":415,"yPos":294},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1,2],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":412,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    have found a Log.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":290,"yPos":149},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+    is brutal...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":549,"yPos":152},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah...
     It''s still brutal...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  DefaultFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   NodeSerializedDataList:
   - {fileID: 939619193}
   - {fileID: 939619192}
   - {fileID: 939619191}
   - {fileID: 939619189}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2023271666}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &939619188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,7 +1680,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   NodeID: 3
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!4 &939619190
@@ -1726,7 +1714,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 2
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &939619192
@@ -1745,7 +1733,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 1
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &939619193
@@ -1764,7 +1752,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
-  TMPFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  TMPFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Icon: {fileID: 0}
   Audio: {fileID: 8300000, guid: e9b1cf023d379724298394d5f710c6d4, type: 3}
 --- !u!1 &980154830
@@ -2451,21 +2439,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 4
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":416,"yPos":314},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1,2],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":411,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    have found a Log.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":284,"yPos":169},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
-    my...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":541,"yPos":170},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Better
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":417,"yPos":314},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1,2],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":412,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    have found a Log.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":285,"yPos":169},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    my...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":542,"yPos":170},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Better
     keep moving...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  DefaultFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   NodeSerializedDataList:
   - {fileID: 270204206}
   - {fileID: 270204205}
   - {fileID: 270204203}
   - {fileID: 270204207}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -2862,7 +2850,7 @@ Transform:
   m_GameObject: {fileID: 1908116482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.81915206, z: 0, w: 0.57357645}
-  m_LocalPosition: {x: -11.16, y: 1.425, z: 8.93}
+  m_LocalPosition: {x: -11.343, y: 1.425, z: 8.714}
   m_LocalScale: {x: 0.4, y: 0.1, z: 0.6}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2973,48 +2961,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 8
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":560.5,"yPos":416},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[2],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":319.5,"yPos":414},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":436,"yPos":124},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":315.5,"yPos":259},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
-    were you doing here Sagey...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":555.5,"yPos":265},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":536.5,"yPos":314},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[2],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":286.5,"yPos":314},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"FirstInteraction","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":true}],"NodeUID":1},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"FirstInteraction","CheckType":0,"RequiredValue":false}],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":412,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":291.5,"yPos":157},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    were you doing here Sagey...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":531.5,"yPos":163},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"This
     is wild, even for you Sage...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
-  DefaultFont: {fileID: 11400000, guid: 32650874e115d104d86d9ef7805909bd, type: 2}
+  DefaultFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   NodeSerializedDataList:
   - {fileID: 419499450}
   - {fileID: 419499451}
   - {fileID: 419499452}
   - {fileID: 419499453}
   - {fileID: 419499454}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 7af48af87ec071844a060b89444d1f90, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 526904377}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1908116484}
-        m_TargetAssemblyTypeName: ReverieCore, Assembly-CSharp
-        m_MethodName: DoorSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1954176363
 GameObject:
   m_ObjectHideFlags: 0
