@@ -10,6 +10,7 @@ public class JumpscareTrigger1 : MonoBehaviour
         if (collidedObject.tag == "PlayerObject")
         {
             light1.enabled = true;
+            light1.color = Color.white;
         }
     }
 }
