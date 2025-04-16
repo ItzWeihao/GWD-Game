@@ -18,6 +18,6 @@ public class LogsInteractable : MonoBehaviour, IInteractable
             _logsManager.CountInteractions();
         }
         // Open the logs
-        Debug.Log("You've open this log");
+        Debug.Log("You've opened this log");
     }
 }
