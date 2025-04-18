@@ -12,6 +12,7 @@ public class TriggerFinalScare : MonoBehaviour, IInteractable
 
     public LightFlicker lightFlicker;
     public Light _light1;
+    public Light _light2;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,7 +34,8 @@ public class TriggerFinalScare : MonoBehaviour, IInteractable
         
         PlayerMovement.StopPlayerMovement();
         player.transform.eulerAngles = new Vector3(0, 90f, 0);
-        
+
+        _light2.enabled = false;
         Transform camera = player.transform.Find("Main Camera");
         camera.localEulerAngles = new Vector3(0f, 0f, 0f);
         //camera.transform.position = new Vector3(0.48f, 1.917f, 0.7f);

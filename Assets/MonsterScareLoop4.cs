@@ -9,6 +9,7 @@ public class MonsterScareLoop4 : MonoBehaviour
     public bool movingToTarget = false;
 
     public Animator animator;
+    public FadeToBlack fadeController;
 
     public float delayBeforeRun = 2f; // Seconds to wait before running
 
@@ -44,10 +45,11 @@ public class MonsterScareLoop4 : MonoBehaviour
         transform.position += direction * speed * Time.deltaTime;
 
         // Optional: stop moving if reached the target
-        if (Vector3.Distance(transform.position, target.position) < 0.1f)
+        if (Vector3.Distance(transform.position, target.position) < 0.5f)
         {
             movingToTarget = false;
             animator.SetBool("RUN", false);
+            fadeController.StartFade();
         }
     }
 }
