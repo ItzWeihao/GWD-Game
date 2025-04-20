@@ -4,11 +4,14 @@ using UnityEngine.SceneManagement;
 public class PauseController : MonoBehaviour
 {
     public GameObject pauseMenuUI;
+    public GameObject quitConfirmationPanel;
+
     public bool isPaused = false;
 
     void Start()
     {
         pauseMenuUI.SetActive(false); // Hide menu at game start
+        quitConfirmationPanel.SetActive(false); // Hide quit confirmation
 
         // Ensure the game is unpaused and the cursor is hidden/locked at the beginning
         Time.timeScale = 1f;
@@ -36,6 +39,8 @@ public class PauseController : MonoBehaviour
     public void ResumeGame()
     {
         pauseMenuUI.SetActive(false);
+        quitConfirmationPanel.SetActive(false); // Just in case
+
         Time.timeScale = 1f; // Resume time
         isPaused = false;
 
@@ -46,6 +51,8 @@ public class PauseController : MonoBehaviour
     void PauseGame()
     {
         pauseMenuUI.SetActive(true);
+        quitConfirmationPanel.SetActive(false);
+
         Time.timeScale = 0f; // Freeze time
         isPaused = true;
 
@@ -64,8 +71,21 @@ public class PauseController : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quit game!");
-        //Time.timeScale = 1f;
+        // Show the confirmation panel instead of quitting immediately
+        pauseMenuUI.SetActive(false);
+        quitConfirmationPanel.SetActive(true);
+    }
+
+    public void ConfirmQuit()
+    {
+        Debug.Log("Quit confirmed!");
         Application.Quit();
+    }
+
+    public void CancelQuit()
+    {
+        // Hide the confirmation and return to the pause menu
+        quitConfirmationPanel.SetActive(false);
+        pauseMenuUI.SetActive(true);
     }
 }
