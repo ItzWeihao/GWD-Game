@@ -4,14 +4,11 @@ using UnityEngine.SceneManagement;
 public class PauseController : MonoBehaviour
 {
     public GameObject pauseMenuUI;
-    public GameObject quitConfirmationPanel;
-
     public bool isPaused = false;
 
     void Start()
     {
         pauseMenuUI.SetActive(false); // Hide menu at game start
-        quitConfirmationPanel.SetActive(false); // Hide quit confirmation
 
         // Ensure the game is unpaused and the cursor is hidden/locked at the beginning
         Time.timeScale = 1f;
@@ -24,23 +21,18 @@ public class PauseController : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                if (isPaused)
-                    ResumeGame();
-                else
-                    PauseGame();
-            }
+            if (isPaused)
+                ResumeGame();
+            else
+                PauseGame();
         }
     }
 
     public void ResumeGame()
     {
         pauseMenuUI.SetActive(false);
-        quitConfirmationPanel.SetActive(false); // Just in case
-
         Time.timeScale = 1f; // Resume time
         isPaused = false;
 
@@ -51,8 +43,6 @@ public class PauseController : MonoBehaviour
     void PauseGame()
     {
         pauseMenuUI.SetActive(true);
-        quitConfirmationPanel.SetActive(false);
-
         Time.timeScale = 0f; // Freeze time
         isPaused = true;
 
@@ -64,28 +54,14 @@ public class PauseController : MonoBehaviour
     {
         Debug.Log("menu clicked!");
 
-        pauseMenuUI.SetActive(false);
         Time.timeScale = 1f; // Reset time before changing scene
-        SceneManager.LoadScene("Main_Menu");
+        SceneManager.LoadScene("Main_Menu"); // Replace with your menu scene name
     }
 
     public void QuitGame()
     {
-        // Show the confirmation panel instead of quitting immediately
-        pauseMenuUI.SetActive(false);
-        quitConfirmationPanel.SetActive(true);
-    }
-
-    public void ConfirmQuit()
-    {
-        Debug.Log("Quit confirmed!");
+        Debug.Log("Quit game!");
+        //Time.timeScale = 1f; // Optional
         Application.Quit();
-    }
-
-    public void CancelQuit()
-    {
-        // Hide the confirmation and return to the pause menu
-        quitConfirmationPanel.SetActive(false);
-        pauseMenuUI.SetActive(true);
     }
 }
