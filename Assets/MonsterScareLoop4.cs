@@ -10,11 +10,13 @@ public class MonsterScareLoop4 : MonoBehaviour
 
     public Animator animator;
     public FadeToBlack fadeController;
+    [SerializeField] private SceneTransition sceneTransition;
 
     public float delayBeforeRun = 2f; // Seconds to wait before running
 
-    void Start()
+    private void Awake()
     {
+        sceneTransition = GameObject.Find("=== SceneManager ===").GetComponent<SceneTransition>();
         animator = GetComponent<Animator>();
     }
 
@@ -50,6 +52,7 @@ public class MonsterScareLoop4 : MonoBehaviour
             movingToTarget = false;
             animator.SetBool("RUN", false);
             fadeController.StartFade();
+            sceneTransition.SwitchScene();
         }
     }
 }
