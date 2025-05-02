@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class PauseController : MonoBehaviour
 {
     public GameObject pauseMenuUI;
+    public GameObject optionsMenuUI;
     public GameObject quitConfirmationPanel;
 
     public bool isPaused = false;
@@ -87,5 +88,14 @@ public class PauseController : MonoBehaviour
         // Hide the confirmation and return to the pause menu
         quitConfirmationPanel.SetActive(false);
         pauseMenuUI.SetActive(true);
+    }
+
+    public void OnOptionsClick()
+    {
+        optionsMenuUI.SetActive(true);
+    }
+    public void OnBackClick()
+    {
+        optionsMenuUI.SetActive(false);
     }
 }
