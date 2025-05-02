@@ -259,7 +259,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseController, Assembly-CSharp
-        m_MethodName: GoToMainMenu
+        m_MethodName: OnOptionsClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -946,6 +946,7 @@ Transform:
   - {fileID: 1248571638290387989}
   - {fileID: 1853445969401264670}
   - {fileID: 4026243363717466923}
+  - {fileID: 8210241151112285854}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9105855559755499057
@@ -2754,3 +2755,81 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1001 &3687916181971645278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4781388387974294056}
+    m_Modifications:
+    - target: {fileID: 1515901012793812575, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301811133342720429, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712859728211984579, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_Name
+      value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712859728211984579, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7081666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -46.439632
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 35.729324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512063612873774842, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+--- !u!4 &8210241151112285854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+  m_PrefabInstance: {fileID: 3687916181971645278}
+  m_PrefabAsset: {fileID: 0}
