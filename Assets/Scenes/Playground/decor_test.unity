@@ -533,25 +533,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1892274062190609085, guid: 2491ef5466ee1294f824564003683963, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.095
-      objectReference: {fileID: 0}
-    - target: {fileID: 1892274062190609085, guid: 2491ef5466ee1294f824564003683963, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.228
-      objectReference: {fileID: 0}
-    - target: {fileID: 1892274062190609085, guid: 2491ef5466ee1294f824564003683963, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 19.089
-      objectReference: {fileID: 0}
     - target: {fileID: 6397608000832925157, guid: 2491ef5466ee1294f824564003683963, type: 3}
       propertyPath: m_Name
       value: === Operation Room ===
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3369951852237148883, guid: 2491ef5466ee1294f824564003683963, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2491ef5466ee1294f824564003683963, type: 3}
