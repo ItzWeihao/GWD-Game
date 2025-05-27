@@ -11847,19 +11847,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70710677
+      value: 0.7069137
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.70710677
+      value: -0.7069137
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00013571979
+      value: 0.0165236
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00013571979
+      value: 0.0165236
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11867,7 +11867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -47.7
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: -3186935836317489533, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -11887,6 +11887,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -5770634479784780433, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4112563910278639626}
+    - targetCorrespondingSourceObject: {fileID: -5770634479784780433, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3684634704986745373}
   m_SourcePrefab: {fileID: 100100000, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
 --- !u!1 &1033690836744504857 stripped
 GameObject:
@@ -11936,6 +11939,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3684634704986745373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033690836744504857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b96779686235a4288f85c53c56d495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  open: 0
 --- !u!4 &2754029960674442397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 074e9756c47bf624f8a5f8817a101df3, type: 3}
