@@ -3,7 +3,8 @@ using UnityEngine;
 public class ObjectiveSceneTrigger : MonoBehaviour, IInteractable
 {
     private FadeUI _fadeUI;
-    private bool _isActive = false;
+    [SerializeField] private bool _isActive = false;
+    public Light exitLight;
     void Awake()
     {
         _fadeUI = GameObject.Find("FadeIn/Out").GetComponent<FadeUI>();
@@ -17,8 +18,9 @@ public class ObjectiveSceneTrigger : MonoBehaviour, IInteractable
         }
     }
 
-    public bool SetActive()
+    public void SetActive()
     {
-        return _isActive = true;
+        _isActive = true;
+        exitLight.enabled = true;
     }
 }

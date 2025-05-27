@@ -9,8 +9,6 @@ public class GammaChanger : MonoBehaviour
 {
     private LiftGammaGain gamma;
     private Volume volume;
-    // public Slider _slider;
-    // public Camera _camera;
 
     private void Start()
     {
