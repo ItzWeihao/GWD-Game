@@ -813,6 +813,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2887996363969378935, guid: ce2eace0b2c26cc4cb421a1b6ff42cf3, type: 3}
+      propertyPath: m_Range
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033113046152031947, guid: ce2eace0b2c26cc4cb421a1b6ff42cf3, type: 3}
+      propertyPath: m_Range
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8160946400139353315, guid: ce2eace0b2c26cc4cb421a1b6ff42cf3, type: 3}
       propertyPath: m_Name
       value: === Dummy Office ===
