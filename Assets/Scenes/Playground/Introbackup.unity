@@ -824,7 +824,7 @@ MonoBehaviour:
       - dialogueText: Right
         worldPosition: {x: 1041.8043, y: 854.5465, z: 0}
         delayAfter: 0
-      - dialogueText: Friends...
+      - dialogueText: Friends
         worldPosition: {x: 1066.8043, y: 623.5465, z: 0}
         delayAfter: 0
     - images:
@@ -896,15 +896,16 @@ MonoBehaviour:
         worldPosition: {x: 987.8043, y: 230.5465, z: 0}
         size: {x: 812, y: 115}
       dialogues:
-      - dialogueText: Sage... I'm sure you do  \nremember. Maybe something happened
-          at the facility.  \nLet me go in and fix it
-        worldPosition: {x: 780.50433, y: 708.6465, z: 0}
+      - dialogueText: Sage... I'm sure you do remember. Maybe something happened
+          at the facility. Let me go in and fix it
+        worldPosition: {x: 776.3043, y: 708.6465, z: 0}
         delayAfter: 0
-      - dialogueText: What do you mean \n'go in and fix it'?
+      - dialogueText: What do you mean 'go in and fix it'?
         worldPosition: {x: 1412.8043, y: 836.5465, z: 0}
         delayAfter: 0
-      - dialogueText: You know. Enter your mind.  \nI'm sure that's why you're here.
-          You know I have the technology for it now, and as you said . \nWe are friends.
+      - dialogueText: "You know. Enter your mind. I'm sure that's why you're here.
+          You know I have the technology for it now, and as you said \u2013 we are
+          friends."
         worldPosition: {x: 784.8043, y: 442.5465, z: 0}
         delayAfter: 0
       - dialogueText: I-I don't know
@@ -945,11 +946,11 @@ MonoBehaviour:
       - dialogueText: '*Ping*'
         worldPosition: {x: 1047.2043, y: 353.4465, z: 0}
         delayAfter: 0
-      - dialogueText: 'The tea is ready, \n and then we can talk. '
-        worldPosition: {x: 1071.104, y: 226.3465, z: 0}
+      - dialogueText: 'The tea is ready, and then we can talk. '
+        worldPosition: {x: 1039.9043, y: 226.3465, z: 0}
         delayAfter: 0
       - dialogueText: Ok? The good old way.
-        worldPosition: {x: 1333.804, y: 226.3465, z: 0}
+        worldPosition: {x: 1333.8043, y: 226.3465, z: 0}
         delayAfter: 0
     - images:
       - sprite: {fileID: 21300000, guid: 275aeb86526abe649890b6f7def3075e, type: 3}
