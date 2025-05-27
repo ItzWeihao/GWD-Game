@@ -11,8 +11,13 @@ public class PauseController : MonoBehaviour
 
     void Start()
     {
+        pauseMenuUI = GameObject.Find("Pause");
+        optionsMenuUI = GameObject.Find("Options");
+        quitConfirmationPanel = GameObject.Find("QuitConfirmationPanel");
+
         pauseMenuUI.SetActive(false); // Hide menu at game start
         quitConfirmationPanel.SetActive(false); // Hide quit confirmation
+        optionsMenuUI.SetActive(false);
 
         // Ensure the game is unpaused and the cursor is hidden/locked at the beginning
         Time.timeScale = 1f;
