@@ -5,17 +5,20 @@ using UnityEngine;
 public class FadeUI : MonoBehaviour
 {
     public CanvasGroup canvasGroup; // Drag your Canvas Group here in the inspector
+    public Canvas canvas;
     public SceneTransition _sceneTransition;
     public float fadeDuration = 1f;
     public bool fade = false;
+    public PauseController pauseController;
 
     private void Start()
     {
-        
+        canvas.enabled = false;
     }
 
     public void FadeIn()
     {
+        
         StartCoroutine(Fade(0f, 1f)); // Fade in (from 0 to 1)
         fade = true;
     }
@@ -31,24 +34,20 @@ public class FadeUI : MonoBehaviour
         StartCoroutine(FadeInOutSequence());
     }
 
-    //private void Update()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.E))
-    //    {
-    //        // Start the FadeIn and FadeOut sequence when 'E' is pressed
-    //        StartCoroutine(FadeInOutSequence());
-    //    }
-    //}
-
     public IEnumerator FadeInOutSequence()
     {
+        canvas.enabled = true;
         // Play FadeIn
         FadeIn();
-        yield return new WaitForSeconds(fadeDuration); // Wait for the fade-in to complete
+        yield return new WaitForSeconds(1f); // Wait for the fade-in to complete
+        pauseController.menuEnableController(true);
         _sceneTransition.SwitchScene();
-        // After 1 second (or fadeDuration), play FadeOut
+        yield return new WaitForSeconds(1f);
+        pauseController.menuEnableController(false);
         yield return new WaitForSeconds(1f); // You can change this value for a longer or shorter wait before fade-out
         FadeOut();
+        yield return new WaitForSeconds(1f); // You can change this value for a longer or shorter wait before fade-out
+        canvas.enabled = false;
     }
 
     private IEnumerator Fade(float startAlpha, float endAlpha)

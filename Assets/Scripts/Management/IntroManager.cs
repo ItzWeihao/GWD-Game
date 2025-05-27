@@ -53,10 +53,18 @@ public class IntroManager : MonoBehaviour
     private int currentPanelIndex = 0;
     private Coroutine dialogueCoroutine;
 
+    public FadeUI transition;
+    public SaveGameObject GameManager;
+    public SaveGameObject SceneManager;
+
     void Start()
     {
         nextButton.onClick.AddListener(NextPanel);
         ShowPanel();
+        transition = GameObject.Find("FadeIn/Out").GetComponent<FadeUI>();
+
+        GameManager = GameObject.Find("=== GameManager ===").GetComponent<SaveGameObject>();
+        SceneManager = GameObject.Find("=== SceneManager ===").GetComponent<SaveGameObject>();
     }
 
     void ShowPanel()
@@ -133,10 +141,10 @@ public class IntroManager : MonoBehaviour
 
             if (currentPageIndex >= pages.Count)
             {
-                Debug.Log("End of story.");
-                nextButton.interactable = false;
-                dialogueTextTemplate.text = "The End.";
-                panelImageTemplate.enabled = false;
+                transition.Fade();
+                // nextButton.interactable = false;
+                // dialogueTextTemplate.text = "The End.";
+                // panelImageTemplate.enabled = false;
                 return;
             }
 

@@ -24,8 +24,6 @@ public class PauseController : MonoBehaviour
         isPaused = false;
 
         pauseMenuUI.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void Update()
@@ -105,5 +103,12 @@ public class PauseController : MonoBehaviour
     {
         optionsMenuUI.SetActive(false);
         pauseMenuUI.SetActive(true);
+    }
+
+    public void menuEnableController(bool state)
+    {
+        pauseMenuUI.SetActive(state);
+        quitConfirmationPanel.SetActive(state);
+        optionsMenuUI.SetActive(state);
     }
 }

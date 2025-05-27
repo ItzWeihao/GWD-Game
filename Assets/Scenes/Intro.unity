@@ -898,7 +898,7 @@ MonoBehaviour:
       dialogues:
       - dialogueText: Sage... I'm sure you do  \nremember. Maybe something happened
           at the facility.  \nLet me go in and fix it
-        worldPosition: {x: 780.50433, y: 708.6465, z: 0}
+        worldPosition: {x: 780.50433, y: 677.2, z: 0}
         delayAfter: 0
       - dialogueText: What do you mean \n'go in and fix it'?
         worldPosition: {x: 1412.8043, y: 836.5465, z: 0}
@@ -908,7 +908,7 @@ MonoBehaviour:
         worldPosition: {x: 784.8043, y: 442.5465, z: 0}
         delayAfter: 0
       - dialogueText: I-I don't know
-        worldPosition: {x: 1410.8043, y: 428.5465, z: 0}
+        worldPosition: {x: 1424, y: 377.7, z: 0}
         delayAfter: 0
     - images:
       - sprite: {fileID: 21300000, guid: f40279ba2be2ccf498e31d232a626931, type: 3}
@@ -1065,6 +1065,9 @@ MonoBehaviour:
   nextButton: {fileID: 759523648}
   fadeOverlay: {fileID: 307396147}
   contentParent: {fileID: 1264138217}
+  transition: {fileID: 0}
+  GameManager: {fileID: 0}
+  SceneManager: {fileID: 0}
 --- !u!4 &1395559255
 Transform:
   m_ObjectHideFlags: 0
