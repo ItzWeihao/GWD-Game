@@ -15,6 +15,7 @@ public class GammaChanger : MonoBehaviour
     {
         volume = GetComponent<Volume>();
         volume.profile.TryGet<LiftGammaGain>(out gamma);
+        _slider = GameObject.Find("BloomSlider").GetComponent<Slider>();
     }
     public void AdjustGamma(float value)
     {

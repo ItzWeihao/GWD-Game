@@ -46,6 +46,7 @@ public class PauseController : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         quitConfirmationPanel.SetActive(false); // Just in case
+        optionsMenuUI.SetActive(false);
 
         Time.timeScale = 1f; // Resume time
         isPaused = false;
@@ -98,9 +99,11 @@ public class PauseController : MonoBehaviour
     public void OnOptionsClick()
     {
         optionsMenuUI.SetActive(true);
+        pauseMenuUI.SetActive(false);
     }
     public void OnBackClick()
     {
         optionsMenuUI.SetActive(false);
+        pauseMenuUI.SetActive(true);
     }
 }
