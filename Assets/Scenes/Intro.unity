@@ -877,22 +877,22 @@ MonoBehaviour:
         worldPosition: {x: 1445.1042, y: 296.9465, z: 0}
         delayAfter: 0
     - images:
-      - sprite: {fileID: 21300000, guid: f1e276c460f838a49be76e70ce3a2f5b, type: 3}
+      - sprite: {fileID: 21300000, guid: 2b0f619988d53234dbd6821f44619a4d, type: 3}
         worldPosition: {x: 715.8043, y: 765.5465, z: 0}
         size: {x: 261, y: 264}
-      - sprite: {fileID: 21300000, guid: 676ee01f710040549bc7b64626032f1c, type: 3}
+      - sprite: {fileID: 21300000, guid: 7c32f55043ca90443bf3dc8fd1daf643, type: 3}
         worldPosition: {x: 987.8043, y: 765.5465, z: 0}
         size: {x: 261, y: 264}
       - sprite: {fileID: 21300000, guid: 32b686fa7c350cc49a591ff9acac0dfd, type: 3}
         worldPosition: {x: 1258.704, y: 765.5465, z: 0}
         size: {x: 261, y: 264}
-      - sprite: {fileID: 21300000, guid: 24e9878c9e1311c4baa85d715241a008, type: 3}
+      - sprite: {fileID: 21300000, guid: b6ecd549302a4a74e89cc701cfc82818, type: 3}
         worldPosition: {x: 782.8043, y: 473.5465, z: 0}
         size: {x: 400, y: 213}
-      - sprite: {fileID: 21300000, guid: c32d28540f527f84699a6779b711587e, type: 3}
+      - sprite: {fileID: 21300000, guid: c867a4ad55c7cba43b6214ae37e3cc65, type: 3}
         worldPosition: {x: 1192.804, y: 473.5465, z: 0}
         size: {x: 400, y: 213}
-      - sprite: {fileID: 21300000, guid: aa94221324b0e7c45b67c239a1805063, type: 3}
+      - sprite: {fileID: 21300000, guid: d3dd20b4dce96f64eac21c3677e4ac59, type: 3}
         worldPosition: {x: 987.8043, y: 230.5465, z: 0}
         size: {x: 812, y: 115}
       dialogues:
@@ -952,16 +952,16 @@ MonoBehaviour:
         worldPosition: {x: 1333.804, y: 226.3465, z: 0}
         delayAfter: 0
     - images:
-      - sprite: {fileID: 21300000, guid: 275aeb86526abe649890b6f7def3075e, type: 3}
+      - sprite: {fileID: 21300000, guid: 01beca54a352ab54db395bd8115f3fdc, type: 3}
         worldPosition: {x: 781.8043, y: 786.5465, z: 0}
         size: {x: 400, y: 236}
-      - sprite: {fileID: 21300000, guid: b3168c93c731c2d458c40ace5ba0bc7b, type: 3}
+      - sprite: {fileID: 21300000, guid: 6640059563d54c14ca7b7bc8c9144df8, type: 3}
         worldPosition: {x: 1191.804, y: 786.5465, z: 0}
         size: {x: 400, y: 236}
-      - sprite: {fileID: 21300000, guid: cdcf9387a439f674e806ec6464daeb3b, type: 3}
+      - sprite: {fileID: 21300000, guid: 00f497d6f0bfd054d87dd5ebcc604c0e, type: 3}
         worldPosition: {x: 987.8043, y: 532.5465, z: 0}
         size: {x: 812, y: 203}
-      - sprite: {fileID: 21300000, guid: 62eaf82dc994be44cbcb8bf7a4f8560e, type: 3}
+      - sprite: {fileID: 21300000, guid: d29d9931b290ad443ab6d458150a9aae, type: 3}
         worldPosition: {x: 783.0043, y: 286.5465, z: 0}
         size: {x: 400, y: 236}
       - sprite: {fileID: 21300000, guid: b11846f793442664c91d07e2224ede4f, type: 3}
