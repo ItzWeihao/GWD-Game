@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 4013851707128820827}
   - component: {fileID: 8913067570049983817}
   m_Layer: 5
-  m_Name: MainMenuButton
+  m_Name: OptionsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1484,9 +1484,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Main Menu
-
-'
+  m_text: Settings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7d2c8b133eabd5b4e8d9b3d80a48b1b4, type: 2}
   m_sharedMaterial: {fileID: -1123905924818894136, guid: 7d2c8b133eabd5b4e8d9b3d80a48b1b4, type: 2}
@@ -2322,7 +2320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4026243363717466923
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2765,11 +2763,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1515901012793812575, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2301811133342720429, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4078385111386917237, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_Name
+      value: BloomSlider
       objectReference: {fileID: 0}
     - target: {fileID: 4712859728211984579, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_Name
@@ -2777,7 +2779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4712859728211984579, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2821,7 +2823,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8512063612873774842, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643183923978619349, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643183923978619349, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseController, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
