@@ -12889,7 +12889,9 @@ PrefabInstance:
       value: glass_trophy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -8700617353114198275, guid: 1ba0b20d8fb600149be68c33ae806f03, type: 3}
+    - {fileID: 65702495048144492, guid: 1ba0b20d8fb600149be68c33ae806f03, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1ba0b20d8fb600149be68c33ae806f03, type: 3}
       insertIndex: 0
