@@ -388,6 +388,57 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &38780632941036740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2688352074237730107}
+  - component: {fileID: 2192837408645683884}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2688352074237730107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38780632941036740}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.98027116, z: -0, w: 0.19765742}
+  m_LocalPosition: {x: -47.606113, y: 0, z: 48.7948}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3019766379789552265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2192837408645683884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38780632941036740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &39770890667464818
 GameObject:
   m_ObjectHideFlags: 0
@@ -14650,6 +14701,57 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &3192775147298006125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 149293157405868577}
+  - component: {fileID: 4190903208553322663}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149293157405868577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3192775147298006125}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.244926, y: 0, z: -20.160004}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8521444683600265225}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4190903208553322663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3192775147298006125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &3197766141850391624
 GameObject:
   m_ObjectHideFlags: 0
@@ -20638,6 +20740,57 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4170370971588733012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7218000255216438332}
+  - component: {fileID: 7534660853875674222}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7218000255216438332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170370971588733012}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.98027116, z: -0, w: 0.19765742}
+  m_LocalPosition: {x: -47.595253, y: 0, z: 51.762474}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7171517579292506032}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7534660853875674222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170370971588733012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &4173625095876077905
 GameObject:
   m_ObjectHideFlags: 0
@@ -20845,6 +20998,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8017c11d1854c443bfdff4e8c39e993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isActive: 0
+  exitLight: {fileID: 0}
+  _source: {fileID: 0}
 --- !u!1 &4182103162043896512
 GameObject:
   m_ObjectHideFlags: 0
@@ -29237,6 +29393,57 @@ Transform:
   - {fileID: 4371306059066822170}
   m_Father: {fileID: 3391582501313518879}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!1 &5956032358240406781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4355165453486167587}
+  - component: {fileID: 6033789087647579290}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355165453486167587
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5956032358240406781}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.244926, y: 0, z: -23.980003}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4128061821859178759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6033789087647579290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5956032358240406781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &5958278999443711932
 GameObject:
   m_ObjectHideFlags: 0
@@ -32914,6 +33121,57 @@ Transform:
   - {fileID: 1678159484133966218}
   m_Father: {fileID: 3391582501313518879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6844413050766662369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1201432747416797895}
+  - component: {fileID: 6693673664152536148}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1201432747416797895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844413050766662369}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.244926, y: 0, z: -22}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4925159941893941048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6693673664152536148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844413050766662369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &6861261789161098799
 GameObject:
   m_ObjectHideFlags: 0
@@ -43053,6 +43311,57 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9156525470403905650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8114026886243516352}
+  - component: {fileID: 7485497727147175507}
+  m_Layer: 0
+  m_Name: ConversationEventInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8114026886243516352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9156525470403905650}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.98027116, z: -0, w: 0.19765742}
+  m_LocalPosition: {x: -47.59882, y: 0, z: 54.54096}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7157249490401681588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7485497727147175507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9156525470403905650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
 --- !u!1 &9188089716089344338
 GameObject:
   m_ObjectHideFlags: 0
@@ -45157,11 +45466,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8114026886243516352}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3245326686363034100}
+    - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5416267642078387313}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
 --- !u!4 &191522347204101187 stripped
 Transform:
@@ -45194,6 +45509,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2148271, y: 6.497341, z: 1.288688}
   m_Center: {x: -0.38066888, y: 3.2486706, z: 0.000007629771}
+--- !u!114 &5416267642078387313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6383101893952957898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":178,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    phone is dead.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 0}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &7157249490401681588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+  m_PrefabInstance: {fileID: 370093355312030632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &375149887249730836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45338,11 +45684,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7218000255216438332}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5208400362650248860}
+    - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5162967363096449341}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
 --- !u!4 &179473072777614151 stripped
 Transform:
@@ -45375,6 +45727,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2148271, y: 6.0898213, z: 1.288688}
   m_Center: {x: -0.38066506, y: 3.0449107, z: 0.0000038741114}
+--- !u!114 &5162967363096449341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6359263106098428622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":178,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    phone is dead.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 0}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &7171517579292506032 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+  m_PrefabInstance: {fileID: 429852638290719916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &547850130058335979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48043,11 +48426,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 149293157405868577}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7963513705779152790}
+    - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5812063844334777197}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
 --- !u!4 &1709542911507965182 stripped
 Transform:
@@ -48080,6 +48469,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2148271, y: 6.17437, z: 1.288688}
   m_Center: {x: -0.3806575, y: 3.087185, z: 0}
+--- !u!114 &5812063844334777197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5585798264880237943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":178,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    phone is dead.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 0}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &8521444683600265225 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+  m_PrefabInstance: {fileID: 1167344095216354069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1184592015193566965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53246,15 +53666,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1201432747416797895}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2098467059115616725}
+    - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1878030740902964094}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
 --- !u!4 &2711846669905347535 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+  m_PrefabInstance: {fileID: 2461449540594934820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4925159941893941048 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
   m_PrefabInstance: {fileID: 2461449540594934820}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &9196161290888735302 stripped
@@ -53283,6 +53714,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2148271, y: 6.279839, z: 1.288688}
   m_Center: {x: -0.3806575, y: 3.1399195, z: 0}
+--- !u!114 &1878030740902964094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9196161290888735302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":187.6,"yPos":26},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    phone is dead.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 0}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &2478939639986640152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64274,11 +64731,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2688352074237730107}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3970716746763668161}
+    - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7907861688760911081}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
 --- !u!1 &1310161160230307831 stripped
 GameObject:
@@ -64306,6 +64769,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2148271, y: 6.3101206, z: 1.288688}
   m_Center: {x: -0.38066506, y: 3.1550603, z: 0.0000038741114}
+--- !u!114 &7907861688760911081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310161160230307831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":177.199982,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    phone is dead.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 0}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &3019766379789552265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+  m_PrefabInstance: {fileID: 5735650829384403349}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5193663532198833790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
@@ -68426,11 +68920,17 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4355165453486167587}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1206607429505373324}
+    - targetCorrespondingSourceObject: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8780423790376709097}
   m_SourcePrefab: {fileID: 100100000, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
 --- !u!1 &184418323004925049 stripped
 GameObject:
@@ -68458,6 +68958,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2148271, y: 6.2677097, z: 1.288688}
   m_Center: {x: -0.3806575, y: 3.1338549, z: 0}
+--- !u!114 &8780423790376709097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184418323004925049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentIDCounter: 1
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":177.200012,"yPos":23.6000061},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    phone is dead.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  saveVersion: 110
+  DefaultName: 
+  DefaultSprite: {fileID: 0}
+  DefaultFont: {fileID: 0}
+  NodeSerializedDataList:
+  - {fileID: 0}
+  ContinueFont: {fileID: 0}
+  EndConversationFont: {fileID: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &4128061821859178759 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7381819319604724508, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
+  m_PrefabInstance: {fileID: 6861427359579597339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6391195740548238832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}

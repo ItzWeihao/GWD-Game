@@ -1151,7 +1151,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_TargetDisplay: 0
 --- !u!114 &8351699261556186607
 MonoBehaviour:
@@ -2299,9 +2299,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 6088560252361367415}
+  canvas: {fileID: 3403933846720308583}
   _sceneTransition: {fileID: 9105855559755499057}
   fadeDuration: 1
   fade: 0
+  pauseController: {fileID: 0}
 --- !u!1 &7333388450860369616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2770,14 @@ PrefabInstance:
     - target: {fileID: 2301811133342720429, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2893314087941295511}
+    - target: {fileID: 2301811133342720429, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GammaValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 2301811133342720429, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GammaCameraConnector, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4078385111386917237, guid: 56393853071a04a4795c2a72343c3599, type: 3}
       propertyPath: m_Name
@@ -2836,8 +2846,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4078385111386917237, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2893314087941295511}
   m_SourcePrefab: {fileID: 100100000, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+--- !u!1 &844224393522461227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4078385111386917237, guid: 56393853071a04a4795c2a72343c3599, type: 3}
+  m_PrefabInstance: {fileID: 3687916181971645278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2893314087941295511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844224393522461227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed99913c1f9b43e47b48d2b599034034, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gammaChanger: {fileID: 0}
 --- !u!4 &8210241151112285854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4818498562079997376, guid: 56393853071a04a4795c2a72343c3599, type: 3}
