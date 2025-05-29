@@ -91,6 +91,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 0}
+  optionsMenuUI: {fileID: 0}
+  quitConfirmationPanel: {fileID: 0}
   isPaused: 0
 --- !u!1 &6134292350456594846
 GameObject:
@@ -140,6 +142,8 @@ MonoBehaviour:
   soundList:
   - {fileID: 8300000, guid: 88269f0d629cf9147ab0380293961a54, type: 3}
   - {fileID: 8300000, guid: 1fe5b823e3ea4694b9604d273018e2c0, type: 3}
+  - {fileID: 8300000, guid: a88a9cd7e076b4f4caae4a4faef08134, type: 3}
+  - {fileID: 8300000, guid: f54ce59fe6567ee49abf77699584fe8c, type: 3}
 --- !u!82 &551316213678976473
 AudioSource:
   m_ObjectHideFlags: 0

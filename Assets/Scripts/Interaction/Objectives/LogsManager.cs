@@ -6,31 +6,30 @@ public class LogsManager : MonoBehaviour
     [SerializeField] private LogsInteractable log2;
     [SerializeField] private LogsInteractable log3;
 
-    public Light doorLight;
-    public GameObject door;
+    public GameObject phone;
 
+    public AudioSource audioSource;
     private int count;
     private ObjectiveSceneTrigger _objectiveSceneTrigger;
 
     private void Awake()
     {
         count = 0;
-        _objectiveSceneTrigger = door.GetComponent<ObjectiveSceneTrigger>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (count == 3)
-        {
-            doorLight.enabled = true;
-            _objectiveSceneTrigger.SetActive();
-            door.tag = "Untagged";
-        }
     }
 
     public void CountInteractions()
     {
         count++;
+    }
+
+    public void FinishObjective()
+    {
+        if (count == 3)
+        {
+            count++;
+            phone.SetActive(true);
+            audioSource.loop = true;
+            audioSource.Play();
+        }
     }
 }

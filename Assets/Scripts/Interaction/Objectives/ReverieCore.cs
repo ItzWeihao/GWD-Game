@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ReverieCore : MonoBehaviour, IInteractable
+public class ReverieCore : MonoBehaviour
 {
     [SerializeField] private GameObject door1;
     [SerializeField] private GameObject door2;
@@ -8,7 +8,7 @@ public class ReverieCore : MonoBehaviour, IInteractable
 
     private bool firstInteraction = true;
 
-    public void Interact()
+    public void ActivateLogObjective()
     {
         if (firstInteraction)
         {
