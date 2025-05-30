@@ -7,6 +7,8 @@ public class Note : MonoBehaviour
 
     public void setActive() {  active = false; }
 
+    [SerializeField] private Light hintLight;
+
     public void checkActive()
     {
         if (!active)
@@ -16,5 +18,10 @@ public class Note : MonoBehaviour
                 ConversationManager.Instance.SetBool("active", active);
             }
         }
+    }
+
+    public void EnableHintLight()
+    {
+        hintLight.enabled = true;
     }
 }
