@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LogsInteractable : MonoBehaviour, IInteractable
+public class LogsInteractable : MonoBehaviour
 {
     public LogsManager _logsManager;
     private bool hasInteracted;
@@ -10,7 +10,7 @@ public class LogsInteractable : MonoBehaviour, IInteractable
         hasInteracted = false;
     }
 
-    public void Interact()
+    public void activateLog()
     {
         if (!hasInteracted)
         {

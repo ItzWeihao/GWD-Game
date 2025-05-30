@@ -9,7 +9,10 @@ public enum SoundType
 {
     JUMPSCARE,
     DOORIMPACT,
-    DOORSLAM
+    DOORSLAM,
+    VOICE_RECORDING_01,
+    PHONE_HANGUP,
+    PHONE_RINGING
 }
 
 [RequireComponent(typeof(AudioSource))]
@@ -32,5 +35,10 @@ public class SoundManagerScript : MonoBehaviour
     public static void PlaySound(SoundType soundType, float volume = 1)
     {
         instance.audioSource.PlayOneShot(instance.soundList[(int)soundType], volume);
+    }
+
+    public static AudioClip GetSound(SoundType soundType)
+    {
+        return instance.soundList[(int)soundType];
     }
 }

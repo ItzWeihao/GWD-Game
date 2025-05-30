@@ -3,10 +3,13 @@ using UnityEngine;
 public class ObjectiveSceneTrigger : MonoBehaviour, IInteractable
 {
     private FadeUI _fadeUI;
-    private bool _isActive = false;
+    [SerializeField] private bool _isActive = false;
+    public Light exitLight;
+    [SerializeField] private AudioSource _source;
     void Awake()
     {
         _fadeUI = GameObject.Find("FadeIn/Out").GetComponent<FadeUI>();
+        _source = gameObject.GetComponent<AudioSource>();
     }
 
     public void Interact()
@@ -17,8 +20,10 @@ public class ObjectiveSceneTrigger : MonoBehaviour, IInteractable
         }
     }
 
-    public bool SetActive()
+    public void SetActive()
     {
-        return _isActive = true;
+        _isActive = true;
+        exitLight.enabled = true;
+        _source.Play();
     }
 }

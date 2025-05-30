@@ -17,16 +17,10 @@ public class TriggerFinalScare : MonoBehaviour, IInteractable
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (lightFlicker == null)
-        {
-            lightFlicker = FindObjectOfType<LightFlicker>();  // Find the LightFlicker script in the scene
-        }
-    }
-
-    // Update is called once per frame
-    void Update() 
-    {
-        
+        //if (lightFlicker == null)
+        //{
+        //    lightFlicker = FindFirstObjectOfType<LightFlicker>();  // Find the LightFlicker script in the scene
+        //}
     }
 
     public void Interact()
@@ -36,7 +30,7 @@ public class TriggerFinalScare : MonoBehaviour, IInteractable
         player.transform.eulerAngles = new Vector3(0, 90f, 0);
 
         _light2.enabled = false;
-        Transform camera = player.transform.Find("Main Camera");
+        Transform camera = player.transform.Find("PlayerCamera");
         camera.localEulerAngles = new Vector3(0f, 0f, 0f);
         //camera.transform.position = new Vector3(0.48f, 1.917f, 0.7f);
         run.StartScareSequence();

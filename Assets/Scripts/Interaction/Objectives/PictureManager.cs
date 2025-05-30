@@ -5,7 +5,6 @@ public class PictureManager : MonoBehaviour
     [SerializeField] private RobinPicture _robinPicture;
     [SerializeField] private SagePicture _sagePicture;
 
-    public Light doorLight;
     public GameObject door;
 
     private int count;
@@ -21,9 +20,8 @@ public class PictureManager : MonoBehaviour
     {
         if (count == 2)
         {
-            doorLight.enabled = true;
+            count++;
             _objectiveSceneTrigger.SetActive();
-            door.tag = "Untagged";
         }
     }
 

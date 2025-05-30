@@ -24,20 +24,22 @@ public class PauseController : MonoBehaviour
         isPaused = false;
 
         pauseMenuUI.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 7 && SceneManager.GetActiveScene().buildIndex != 1)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 if (isPaused)
+                {
                     ResumeGame();
+                }
                 else
+                {
                     PauseGame();
+                }
             }
         }
     }
@@ -105,5 +107,12 @@ public class PauseController : MonoBehaviour
     {
         optionsMenuUI.SetActive(false);
         pauseMenuUI.SetActive(true);
+    }
+
+    public void menuEnableController(bool state)
+    {
+        pauseMenuUI.SetActive(state);
+        quitConfirmationPanel.SetActive(state);
+        optionsMenuUI.SetActive(state);
     }
 }

@@ -1,24 +1,42 @@
 using UnityEngine;
 
-public class SagePicture : MonoBehaviour, IInteractable
+public class SagePicture : MonoBehaviour
 {
     public PictureManager _pictureManager;
+    public GameObject _picture;
     private bool hasInteracted;
+
+    public GameObject voiceMemo;
+    private AudioSource _audioSource;
 
     private void Awake()
     {
         hasInteracted = false;
+        _audioSource = voiceMemo.GetComponent<AudioSource>();
     }
 
-    public void Interact()
+    public void Interacting()
     {
         if (!hasInteracted)
         {
             hasInteracted = true;
             _pictureManager.CountInteractions();
-            // put down Robins Picture
-            // play voice recorder
         }
-        Debug.Log("Sage picture");
+    }
+
+    public void EnableRobinPicture()
+    {
+        if (_picture != null)
+        {
+            _picture.SetActive(true);
+        }
+    }
+
+    public void PlayVoiceRecording()
+    {
+        if (!_audioSource.isPlaying)
+        {
+            _audioSource.Play();
+        }
     }
 }

@@ -12,7 +12,7 @@ public class JumpscareTrigger0 : MonoBehaviour
         if (collidedObject.tag == "PlayerObject")
         {
             light1.enabled = false;
-            monster.transform.position = new Vector3(-20f, 0f, -1f);
+            monster.transform.position = new Vector3(-10f, 0f, -1f);
             monster.transform.eulerAngles = new Vector3(0, 270f, 0);
         }
     }

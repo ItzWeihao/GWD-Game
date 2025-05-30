@@ -10,8 +10,7 @@ public class MonsterScare1 : MonoBehaviour
     public Light _light1;
     public Light _light2;
     public PlayerMovement _playerMovement;
-    public GameObject door1;
-    public GameObject door2;
+    public GameObject door;
     public GameObject picture;
     public Animator animator;
 
@@ -44,8 +43,7 @@ public class MonsterScare1 : MonoBehaviour
             picture.SetActive(true);
 
             SoundManagerScript.PlaySound(SoundType.DOORIMPACT);
-            Destroy(door1);
-            Destroy(door2);
+            Destroy(door);
 
             Destroy(gameObject);
 
