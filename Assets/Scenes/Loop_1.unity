@@ -628,11 +628,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 12
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":84.4999542,"yPos":664.600342},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[8],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":297.6,"yPos":663.7999},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[8],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"active","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":176.399963,"yPos":106.800018},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"A
-    letter for Sage.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":174.899963,"yPos":220.800049},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Most
-    of the things in the office seem the same...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":174.899963,"yPos":328.800079},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Must''ve
-    been this Memory Jump phenomenon.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":175.899963,"yPos":431.80014},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Seems
-    like some locations might be confused to fit where they don''t belong.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"active","CheckType":0,"RequiredValue":true}],"NodeUID":7},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"active","CheckType":0,"RequiredValue":false}],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":176.899963,"yPos":533.800537},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Thought
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":260.099976,"yPos":413.8003},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[8],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":473.200043,"yPos":412.999878},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[8],"SpeechUID":-1}],"Parameters":[{"__type":"EditableBoolParameter:#DialogueEditor","ParameterName":"active","BoolValue":true}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":352,"yPos":-144},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"A
+    letter for Sage.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":350.5,"yPos":-29.99997},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"Most
+    of the things in the office seem the same...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":350.5,"yPos":78.00006},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Must''ve
+    been this Memory Jump phenomenon.","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":351.5,"yPos":181.000122},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Seems
+    like some locations might be confused to fit where they don''t belong.","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"active","CheckType":0,"RequiredValue":true}],"NodeUID":7},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[{"__type":"EditableBoolCondition:#DialogueEditor","ParameterName":"active","CheckType":0,"RequiredValue":false}],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":352.5,"yPos":283.000519},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Thought
     you would be above this, Sagey. Not so in control as you thought.","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -654,7 +654,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 159897992}
         m_TargetAssemblyTypeName: ItemShowcase, Assembly-CSharp
-        m_MethodName: SetItemShowcaseActive
+        m_MethodName: SetItemShowcaseDeactive
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 55654700}
@@ -664,9 +664,45 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1413379824}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1413379830}
+        m_TargetAssemblyTypeName: NoteInteraction, Assembly-CSharp
+        m_MethodName: setActive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 159897997}
         m_TargetAssemblyTypeName: Note, Assembly-CSharp
-        m_MethodName: checkActive
+        m_MethodName: setActive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 159897997}
+        m_TargetAssemblyTypeName: Note, Assembly-CSharp
+        m_MethodName: EnableHintLight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -709,6 +745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fd60f3dac72f245a0cb13047026a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hintLight: {fileID: 796826236}
 --- !u!4 &212046796 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 761144797371266222, guid: 38c01ef3383bc214381c8412be3dca0a, type: 3}
@@ -1176,6 +1213,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 159897997}
+        m_TargetAssemblyTypeName: Note, Assembly-CSharp
+        m_MethodName: EnableHintLight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 7
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -1478,6 +1527,127 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &796826233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 796826234}
+  - component: {fileID: 796826236}
+  - component: {fileID: 796826235}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &796826234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796826233}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.25930205, y: 0.5919914, z: -0.18121094, w: 0.7412633}
+  m_LocalPosition: {x: -191.747, y: 102.934, z: -42.314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1413379825}
+  m_LocalEulerAnglesHint: {x: 36.796, y: 78.137, z: 2.746}
+--- !u!114 &796826235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796826233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &796826236
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796826233}
+  m_Enabled: 0
+  serializedVersion: 11
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 4.3222857
+  m_SpotAngle: 80.416306
+  m_InnerSpotAngle: 61.291687
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!1 &866349236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,6 +2455,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6212605638147952713, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       insertIndex: -1
       addedObject: {fileID: 692882243}
+    - targetCorrespondingSourceObject: {fileID: 8219794404709351105, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 796826234}
     - targetCorrespondingSourceObject: {fileID: 2021782416606618259, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       insertIndex: -1
       addedObject: {fileID: 954774543}
@@ -2422,6 +2595,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &1413379825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8219794404709351105, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+  m_PrefabInstance: {fileID: 1413379822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1413379829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2021782416606618259, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
