@@ -5,6 +5,11 @@ public class SaveGameObject : MonoBehaviour
 {
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject); 
+    }
+
+    public void DestroyGameObject()
+    {
+        Destroy(gameObject);
     }
 }

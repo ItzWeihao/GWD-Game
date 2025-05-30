@@ -8,7 +8,7 @@ public class GammaCameraConnector : MonoBehaviour
 
     void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 7)
         {
             _gammaChanger = GameObject.Find("PlayerCamera").GetComponent<GammaChanger>();
         }
@@ -22,7 +22,7 @@ public class GammaCameraConnector : MonoBehaviour
 
     private void Update()
     {
-        if (_gammaChanger == null && SceneManager.GetActiveScene().buildIndex != 1)
+        if (_gammaChanger == null && SceneManager.GetActiveScene().buildIndex != 1 && SceneManager.GetActiveScene().buildIndex != 7)
         {
             _gammaChanger = GameObject.Find("PlayerCamera").GetComponent<GammaChanger>();
             GammaValue(gammaValue);

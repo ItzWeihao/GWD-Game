@@ -1,13 +1,18 @@
 using UnityEngine;
 
-public class RobinPicture : MonoBehaviour, IInteractable
+public class RobinPicture : MonoBehaviour
 {
     public PictureManager _pictureManager;
 
-    public void Interact()
+    public Light[] lights;
+
+    public void RobinPictureInteract()
     {
-        Debug.Log("Robin picture");
         _pictureManager.CountInteractions();
+    }
+
+    public void DeleteObject()
+    {
         Destroy(gameObject);
     }
 }

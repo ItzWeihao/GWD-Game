@@ -28,7 +28,7 @@ public class PauseController : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if (SceneManager.GetActiveScene().buildIndex != 0 || SceneManager.GetActiveScene().buildIndex != 7)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
