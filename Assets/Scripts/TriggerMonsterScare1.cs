@@ -11,11 +11,19 @@ public class TriggerMonsterScare1 : MonoBehaviour
 
     public PlayerMovement playerMovement;
 
+    [SerializeField] private GameObject _music;
+
+    private void Start()
+    {
+        _music = GameObject.Find("Music");
+    }
+
     void OnTriggerEnter(Collider other)
     {
         GameObject collidedObject = other.gameObject;
         if (collidedObject.tag == "PlayerObject")
         {
+            Destroy(_music);
             SoundManagerScript.PlaySound(SoundType.JUMPSCARE);
             _light1.intensity = 0;
             _light2.intensity = 0;

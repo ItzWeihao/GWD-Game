@@ -1309,18 +1309,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1719929444}
-        m_TargetAssemblyTypeName: LogsInteractable, Assembly-CSharp
-        m_MethodName: activateLog
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   NodeID: 3
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -1406,6 +1394,32 @@ MonoBehaviour:
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 8300000, guid: f2b1e6a56a815dc49ba5fa4edf31858c, type: 3}
+--- !u!1 &275507947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2819655403071352051, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+  m_PrefabInstance: {fileID: 2066864245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &275507948
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275507947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3651166, y: 4.3755107, z: 0.98478514}
+  m_Center: {x: 0.01572711, y: 0.009488384, z: -0.08686795}
 --- !u!1 &283332658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,6 +1558,7 @@ MonoBehaviour:
   log3: {fileID: 1719929444}
   phone: {fileID: 2040503572}
   audioSource: {fileID: 2040503578}
+  count: 0
 --- !u!1 &292753419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,18 +2490,6 @@ MonoBehaviour:
       - m_Target: {fileID: 289802227}
         m_TargetAssemblyTypeName: LogsManager, Assembly-CSharp
         m_MethodName: FinishObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 860060294}
-        m_TargetAssemblyTypeName: LogsInteractable, Assembly-CSharp
-        m_MethodName: activateLog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4014,8 +4017,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.8911998, y: 0.0825613, z: 1.3509738}
-  m_Center: {x: 0, y: 0.04128065, z: 0.0011889637}
+  m_Size: {x: 0.8911998, y: 0.2575673, z: 1.3509738}
+  m_Center: {x: 2.7140512e-12, y: 0.12878364, z: 0.0011889935}
 --- !u!23 &719481225
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4083,8 +4086,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 3
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":362,"yPos":281},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":367,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Test
-    logs on <i>patient<\/i> Maya.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":366,"yPos":157},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":348,"yPos":281},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":353,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Test
+    logs on <i>patient<\/i> Maya.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":352,"yPos":157},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
     did they do to her...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -4102,23 +4105,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 719481228}
         m_TargetAssemblyTypeName: ItemShowcase, Assembly-CSharp
-        m_MethodName: SetItemShowcaseDeactive
+        m_MethodName: SetItemShowcaseActive
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1498129506}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 289802227}
-        m_TargetAssemblyTypeName: LogsManager, Assembly-CSharp
-        m_MethodName: FinishObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5216,8 +5207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 3
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":362,"yPos":254},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":367,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Testing
-    logs on Dawson.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":365,"yPos":140},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":348,"yPos":254},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[1],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":353,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Testing
+    logs on Dawson.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":351,"yPos":140},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"This
     is... brutal...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -5247,18 +5238,6 @@ MonoBehaviour:
       - m_Target: {fileID: 289802227}
         m_TargetAssemblyTypeName: LogsManager, Assembly-CSharp
         m_MethodName: FinishObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 860060294}
-        m_TargetAssemblyTypeName: LogsInteractable, Assembly-CSharp
-        m_MethodName: activateLog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6114,13 +6093,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4964626601730695069, guid: 3421518f615e9074a947d10041c9e654, type: 3}
       insertIndex: -1
       addedObject: {fileID: 643475436}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7256385758959744365, guid: 3421518f615e9074a947d10041c9e654, type: 3}
-      insertIndex: 1
-      addedObject: {fileID: 2030149681}
-    - targetCorrespondingSourceObject: {fileID: 7256385758959744365, guid: 3421518f615e9074a947d10041c9e654, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2030149680}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3421518f615e9074a947d10041c9e654, type: 3}
 --- !u!224 &1066010986 stripped
 RectTransform:
@@ -10826,6 +10799,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691614129}
   m_Mesh: {fileID: -5950336583316069110, guid: 23f171d56106c54488c45928c7ef4336, type: 3}
+--- !u!1 &1705840145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1570244495880057871, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+  m_PrefabInstance: {fileID: 2066864245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1705840146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705840145}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3651161, y: 4.3755097, z: 0.9944591}
+  m_Center: {x: 0.015725352, y: 0.009485412, z: -0.08202821}
 --- !u!1 &1709273469
 GameObject:
   m_ObjectHideFlags: 0
@@ -10918,8 +10917,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.8911998, y: 0.0825613, z: 1.3509738}
-  m_Center: {x: 0, y: 0.04128065, z: 0.0011889637}
+  m_Size: {x: 0.8911998, y: 0.1737163, z: 1.3509738}
+  m_Center: {x: -4.750085e-11, y: 0.08685815, z: 0.0011889935}
 --- !u!114 &1719929444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11012,9 +11011,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 4
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":373,"yPos":375},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[2],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":367,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Medical
-    log for <i>patient<\/i> Timofey.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":370,"yPos":141},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"At
-    least someone is not suffering...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":367,"yPos":263},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Unless...
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":283,"yPos":438},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"End.","parentUIDs":[2],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":277,"yPos":85},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Medical
+    log for <i>patient<\/i> Timofey.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Interaction:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":280,"yPos":204},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"At
+    least someone is not suffering...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":277,"yPos":326},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Unless...
     Sage...","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Robin:","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -11032,23 +11031,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1719929447}
         m_TargetAssemblyTypeName: ItemShowcase, Assembly-CSharp
-        m_MethodName: SetItemShowcaseDeactive
+        m_MethodName: SetItemShowcaseActive
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 643475435}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 289802227}
-        m_TargetAssemblyTypeName: LogsManager, Assembly-CSharp
-        m_MethodName: FinishObjective
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12664,40 +12651,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029323224}
   m_Mesh: {fileID: -4538292398231217861, guid: 23f171d56106c54488c45928c7ef4336, type: 3}
---- !u!1 &2030149675 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7256385758959744365, guid: 3421518f615e9074a947d10041c9e654, type: 3}
-  m_PrefabInstance: {fileID: 1066010985}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2030149680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030149675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: ab09877e2e707104187f6f83e2f62510, type: 2}
---- !u!114 &2030149681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030149675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877baf6ae2526e74e86f1a1e2d49e6fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2040503568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12768,7 +12721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1721158258135919238, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -12776,7 +12729,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43717888b109c3c4d887ce3c4fd55c2c, type: 2}
     - target: {fileID: 6753007626837773922, guid: 1af0317d4b90fbd4bb8ef7d3a9b5ce48, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12861,7 +12814,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 330662509d6c0a647a0a87e0e3abf8af, type: 3}
   m_Resource: {fileID: 8300000, guid: 330662509d6c0a647a0a87e0e3abf8af, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -12870,9 +12823,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 50
+  MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -13350,6 +13303,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 511162218}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1570244495880057871, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1705840146}
+    - targetCorrespondingSourceObject: {fileID: 2819655403071352051, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 275507948}
     - targetCorrespondingSourceObject: {fileID: 4176999301418276917, guid: eac1a9240779ae24f89c78008bf12e13, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2066864255}
@@ -13834,18 +13793,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 719481223}
-        m_TargetAssemblyTypeName: LogsInteractable, Assembly-CSharp
-        m_MethodName: activateLog
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   NodeID: 2
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -13914,18 +13861,6 @@ MonoBehaviour:
       - m_Target: {fileID: 719481223}
         m_TargetAssemblyTypeName: LogsInteractable, Assembly-CSharp
         m_MethodName: activateLog
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 289802227}
-        m_TargetAssemblyTypeName: LogsManager, Assembly-CSharp
-        m_MethodName: CountInteractions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

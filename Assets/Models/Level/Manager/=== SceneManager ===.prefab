@@ -2844,7 +2844,8 @@ PrefabInstance:
       value: PauseController, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6708148116408350099, guid: 56393853071a04a4795c2a72343c3599, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4078385111386917237, guid: 56393853071a04a4795c2a72343c3599, type: 3}

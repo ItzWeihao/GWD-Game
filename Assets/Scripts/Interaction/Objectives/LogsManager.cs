@@ -9,7 +9,7 @@ public class LogsManager : MonoBehaviour
     public GameObject phone;
 
     public AudioSource audioSource;
-    private int count;
+    [SerializeField] private int count;
     private ObjectiveSceneTrigger _objectiveSceneTrigger;
 
     private void Awake()
